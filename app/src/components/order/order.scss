@@ -1,0 +1,260 @@
+@import url('//at.alicdn.com/t/font_553020_l5zhz0y6d5nrk9.css');
+$h-h: .93rem;
+
+.orderHeader{
+       display: flex;
+       height:$h-h;
+       color:#000;
+       background: rgb(243, 243, 243);
+       border: .01rem solid #cccccc;
+       position: fixed;
+       top:0px;
+       left:0px;
+       z-index: 100;
+       width: 100%;
+       section{
+           flex:1;
+           display: flex;
+           justify-content: center;
+           text-align: center;
+           line-height:$h-h;
+            font-size: .38rem;
+            i{
+                font-size:.68rem;
+                padding-left: .13rem;
+                
+            }
+       }
+       >span{
+           width: .53rem;
+           &.yp_back{
+            font-size: .42rem;
+           color: #000;
+
+            margin: .13rem;
+
+          } 
+       }
+   
+
+
+}
+
+
+#yp_order{
+    height:100%;
+     display:flex;
+     flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    #yp_tab_main{
+       flex: 1;
+       display:flex;
+       flex-direction: column;
+       position: relative;
+       top:$h-h;
+       left:0px;
+       .yp_tabs_main{
+           flex:1;
+           padding-top:$h-h;
+        //    .am-tabs-pane-wrap{
+        //        display: flex;
+        //    }
+          
+
+       }
+        
+        
+    }
+
+    .am-tabs-pane-wrap{
+        display: flex;
+        flex-direction: column;
+        background-color:#f1f1f1;
+        height:100%;
+    }
+ 
+
+    .am-whitespace{
+        display: none;
+    }
+    .am-tabs-horizontal{
+        background-color:#f1f1f1;
+        display: flex;
+        flex-direction: column
+      
+    }
+    .am-tabs-content-wrap-animated{
+        flex: 1;
+    }
+    .am-tabs-tab-bar-wrap{
+        height: .88rem;
+        position: fixed;
+        top:$h-h;
+        left:0px;
+        z-index: 100;
+        width: 100%;
+    }
+    .am-tabs-default-bar-tab{
+        height:.88rem;
+        font-size: .32rem;
+    }
+    .am-tabs-default-bar-tab-active{
+        color: rgb(248, 71, 71);
+        border: .01rem;
+        height:.83rem;
+    }
+    .am-tabs-default-bar-underline{
+    
+    border: .02rem #ff0000 solid;
+    }
+
+
+    .yp_orderList{
+        width: 100%;   
+        display: flex;  
+        flex-direction:column;
+        border-bottom: .01rem solid #cccccc;
+        border-top: .01rem solid #cccccc;
+        background: #fff;
+        margin: .34rem 0px;
+        
+        .yp_order_header{
+            font-size: .29rem;
+            display: flex;
+            height:.83rem;
+            line-height: .83rem;
+             padding: 0 .25rem;
+             border-bottom: 1px solid #ccc;
+            
+            span:nth-of-type(1){
+                flex:1;
+            }
+            span:nth-of-type(2){
+                width: .97rem;
+                font-weight: bold;
+            }            
+        }
+        .yp_order_main{
+            padding:  .25rem;
+           
+             img{
+                 width: 1.43rem;
+                 height: 1.7rem;
+             }
+        }
+       .yp_order_main{
+           display: flex;
+           .yp_main_r{
+               flex:1;
+               padding:0 .2rem;
+               font-size: .32rem;
+               h4{
+                   display: flex;
+                   span:nth-of-type(1){
+                        flex:1;
+                   }
+                   span:nth-of-type(2){
+                       color: #000;
+                       font-weight: bold;
+                   }
+                
+               }
+               p{
+                   font-size: .29rem;
+                   margin: 0;
+                   &:nth-of-type(2){
+                       span{
+                           margin-right: 1.3rem;
+                       }
+                   }
+               }
+           }
+       }
+       .yp_order_footer{
+        border-top: .01rem solid #cccccc;
+        height:.83rem;
+           
+        padding:0 .2rem;
+         display: flex;   
+         font-size: .35rem;
+         color: #000;
+         line-height:.83rem ;
+         span:nth-of-type(2){
+                flex:1;
+                padding-left: .43rem
+         }
+         >div{
+           button{
+               border: none;
+               background: #ff5252;
+               color: #fff;
+               height:.58rem;
+               line-height: .58rem;
+                width: 1.6rem;
+                border-radius:  .04rem;
+           }   
+         }
+       }
+       
+    }
+
+}
+
+
+.am-action-sheet-wrap {
+    .am-action-sheet-message{
+        font-size: 0.40rem;
+    }
+    .am-action-sheet-button-list-item{
+        padding-top: 0.13rem;
+        height: 0.93rem;
+        font-size:0.38rem;
+    }
+    .am-action-sheet-cancel-button{
+        color: #ff0000;
+    }
+}
+
+.am-toast{
+     .am-toast-notice{
+        .am-toast-notice-content{
+            .am-toast-text {
+                padding: 0.47rem 1.04rem;
+                .am-icon{
+                    width: 1.2rem;
+                    height:1.0rem;
+                }
+                .am-toast-text-info{
+                    font-size: 0.4rem;
+                }
+            }
+       }
+    }
+}
+
+#yp_order_empty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:  3.53rem;
+    i{
+        font-size: 2.03rem;
+        color:rgb(138, 138, 138);
+    }
+    h3{
+        color:#000;
+        font-size: 0.4rem;
+    }
+    p{
+        color:rgb(156, 156, 156);
+        font-size: 0.35rem;
+    }
+    button{
+       background: rgb(241, 241, 241);
+       border: 1px solid #000000;
+       padding: 0.03rem 0.2rem;
+       border-radius:  0.04rem;
+       color: #000;
+       font-size: 0.4rem;
+    }
+}

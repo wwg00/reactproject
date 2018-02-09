@@ -1,0 +1,270 @@
+@import url('//at.alicdn.com/t/font_553020_cnzoid7dp9zfr.css');
+$border:1px solid #d8d8d8;
+$d8: #d8d8d8;
+
+#yp_particulars{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+    font-size: 0.34rem;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+
+    background: #fcfcfc;
+    .orderHeader{
+       position: static;
+    
+    }
+    #yp_pc_main{
+        flex: 1;
+        overflow-x: hidden;
+    }
+    .yp_part_state{
+        display: flex;
+        flex-direction: column;
+     
+        border-bottom:$border;
+        
+        li{
+          
+            background: #fff;
+            padding:0.17rem 0.13rem;
+            &:nth-of-type(1){
+                color: #fff;
+                background: #ff7979;
+                h3,p{
+                    margin: 0;
+                    color: #fff;
+                }
+                h3{
+                    i{
+                        font-weight: 100;
+                    }
+                    font-weight: bold;
+                    padding-bottom: 0.07rem;
+                }
+            
+            }
+            &:nth-of-type(2){
+              
+                >div{
+                    display: flex;
+                    color: #000;
+                    align-items: center;
+                    p{
+                        flex: 1;
+                        margin-bottom: 0px;
+                        padding:0rem 0.23rem;
+                        display: flex;
+                        span{
+                            &:nth-of-type(1){
+                                flex:1;
+                            }
+                        }
+                        
+                    }
+
+                }
+                >p{
+                    padding-left: .77rem;
+                    padding-bottom: 0.30rem;
+                }
+            }
+
+
+          
+        }
+    }
+    dl{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        dt,dd{
+            padding: 0.23rem   0.13rem;
+        }
+        dt{
+            padding: 0.17rem   0.13rem;
+            font-size: 0.40rem;
+            display: flex;
+            border: $border{
+                left: 0;
+            
+                right: 0;
+            };
+        
+        }
+        >dd{
+            padding: 0rem   0.13rem;
+            height: 2.03rem;
+            padding-top: 0.15rem;
+            display: flex;
+            margin: 0;
+            &:last-of-type{
+                height: 2.28rem;
+                border-bottom: 1px solid $d8;
+            }
+            >div{
+                height: 1.77rem;
+                img{
+                    width: 1.27rem;
+                    height: 1.77rem;
+                }
+            }
+            >ul{
+                padding-left: 0.3rem;
+                flex:1;
+                margin: 0;
+               
+                li{
+                    display: flex;
+                    &:nth-of-type(1){
+                        color: #000;
+                        font-size: 0.37rem;
+
+                    }
+                       
+                    span{
+                        &:nth-of-type(1){
+                            flex: 1;
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+    .yp_rows{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 0.01rem $d8 solid;
+        border-top: 0.01rem $d8 solid;
+        background: #fff;
+        padding:0.2rem 0.4rem;
+        color: #000;
+        &:nth-of-type(2),&:nth-of-type(3){
+            li{
+                display: flex;
+                flex: 1;
+              
+                span:nth-of-type(1){
+                    flex: 1;
+                }
+                span:nth-of-type(2){
+                    color:#a5a5a5;
+                }
+            }
+        }
+        &:nth-of-type(3), &:nth-of-type(4){
+        padding:0rem 0.4rem;
+            
+            li{
+                 &:nth-of-type(1){
+                     border-bottom: 0.01rem solid $d8;
+                     height: 0.93rem;
+                    line-height: 0.93rem;
+                     
+                 }
+                 &:nth-of-type(2){
+                    color:#a5a5a5;
+                    height: 0.93rem;
+                    line-height: 0.93rem;
+                }
+            }
+        }
+         &:nth-of-type(4){
+            
+            li{
+                 &:nth-of-type(1){
+                    
+                     height: 0.9rem;
+                 }
+                 &:nth-of-type(2){
+                     display: flex;
+                     flex-direction:column;
+                     height: 1.5rem;
+                     span{
+                         height: .5rem;
+                     }
+         
+                }
+            }
+        }
+        &:nth-of-type(5){
+           li{
+                &:nth-of-type(1){
+                    height: 1.8rem;
+                   p{
+                       margin: 0;
+                       display: flex;
+                       span{
+                           &:nth-of-type(1){
+                               flex: 1;
+                           }
+                       }
+                   }
+                   border-bottom: 0.01rem solid $d8;
+                }
+                &:nth-of-type(2){
+                    padding-top: 0.12rem;
+                    text-align: right;
+                    color: rgb(255, 72, 72);
+                    height: 1.83rem;
+                    span{
+                        font-weight: bold;
+                        font-size: 0.44rem;
+                    }
+        
+               }
+           }
+       }
+
+        
+    }
+    #yp_fukua{
+        position: fixed;
+        bottom: 0px;
+        left:0px;
+        height: 1.2rem;
+        display: flex;
+        width: 100%;
+        background: #fff;
+        border-top: 1px solid #d8d8d8;
+        justify-content: center;
+        padding: 0.25rem;
+        button{
+            color:#fff;
+            border:none;
+            margin: 0 ;
+            width: 2.4rem;
+            margin: 0 .73rem;
+            border-radius: 0.04rem;
+            background: #fff;
+            &:nth-of-type(1){
+                border: 0.01rem solid #000;
+                color: #000;
+            }
+            &:nth-of-type(2){
+                background: rgb(250, 18, 18);
+                color: #fff;
+            }
+        }
+    }
+    .yp_small{
+        font-size: 0.33rem;
+        
+    }
+    .yp_big{
+        
+        color: #000;
+        font-weight: bold;
+        
+    }
+
+
+
+}

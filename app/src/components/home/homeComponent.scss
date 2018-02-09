@@ -1,0 +1,201 @@
+.home{
+    .am-wingblank{
+        padding:0;
+        margin:0;
+    }
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: space-around;
+    height: 100%;
+    .main{
+        display:flex;
+        flex:1;
+        width: 100%;
+        flex-flow:column wrap;
+        justify-content: flex-start;
+        overflow-y: scroll;
+        .carousel{
+            height: 4.9867rem;
+            width: 100%;
+            overflow: hidden;
+            .am-wingblank-lg{
+                height: 4.9867rem;
+            }
+            .space-carousel {
+                padding: 0.2133rem;
+                background: #DEF1E5;
+                overflow: hidden;
+            }
+            .my-carousel .v-item {
+                height: 0.48rem;
+                line-height: 0.48rem;
+                padding-left: 0.1333rem;
+            }
+            .sub-title {
+                color: #888;
+                font-size: 0.1867rem;
+                height: 0;
+            }
+        }
+        .clothing{
+            display:flex;
+            flex:1;
+            flex-flow:row wrap;
+            .son{
+                display:flex;
+                background: #f7f7f7;
+                padding-top:0.2rem;
+                width: 100%;
+                overflow: hidden;
+                height: 7.7067rem;
+                flex-flow:row wrap;
+                .bImg{
+                    height: 2.8267rem;
+                    background:#058;
+                    width: 100%;
+                    >img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                ul{
+                    height: 4.7067rem;
+                    width: 100%;
+                    display:flex;
+                    flex-flow:row nowrap;
+                    justify-content: flex-start;
+                    // 给盒子X的滑动
+                    display: -webkit-box;
+                    overflow-x: scroll;
+                    li{
+                        width: 2.8rem;
+                        margin:0.3733rem 0 0 0;
+                        >div{
+                            width: 2.4267rem;   
+                            img{
+                                width: 2.4267rem;
+                                height: 2.4267rem;
+                                background: #810;
+                            }
+                            span{
+                                height: 0.7333rem;
+                                line-height: 0.7333rem;
+                                font-size:0.24rem;
+                            }
+                            .description{
+                                margin-top:0.2rem;
+                                width: 2.4267rem;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 2;
+                                -webkit-box-orient: vertical;
+                                font-size:0.2933rem;
+                                color:rgb(92, 92, 92);
+                            }
+                            .nPrice{
+                                font-size:0.2933rem;
+                                color:red;
+                                padding-right:0.3733rem;
+                            }
+                            .oPrice{
+                                color:rgb(85, 85, 85);
+                                text-decoration:line-through;
+                            }
+                        }
+                        .descriptionBox{
+                            height: 0.96rem;
+                        }
+                    }
+                    li:first-child{
+                        margin-left:0.3733rem;
+                    }
+                    li.toList{
+                        width: 2.8rem;
+                        >a{
+                            display:inline-block;
+                            font-size:0.3467rem;
+                            height: 2.4267rem;
+                            width: 2.4267rem;
+                            border:0.0133rem solid #ccc;
+                            text-align:center;
+                            line-height: 2.4267rem;
+                            padding-bottom:0.0667rem;
+                            color:rgb(85, 85, 85);
+                            >span{
+                                border-bottom:0.04rem solid #ccc;
+                                padding-bottom:0.0667rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer{
+            width: 100%;
+            background:#F5F5F5;
+            display:flex;
+            height: 1.6rem;
+            border-top:0.0133rem solid #ccc;
+            border-bottom:0.0133rem solid #ccc;
+            flex-flow:row nowrap;
+            justify-content: flex-start;
+            padding-left:0.2667rem;
+            padding-right:0.2667rem;
+            .footerSon{
+                width: 33.33%;
+                display:flex;
+            }
+            .textSon{
+                height: 1.6rem;
+                line-height: 1.6rem;
+                text-align:center;
+                font-size:0.3467rem;
+                padding-left:0.5867rem;
+            }
+            .borderSon{
+                border-bottom:0.0133rem solid #ccc;
+                height: 0.8rem;
+            }
+        }
+        .transition{
+            width: 100%;
+            height: 3.6533rem;
+            display:flex;
+            margin-top:0.2rem;
+            >img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .search{
+        height: 1.3333rem;
+        font-size:0.4rem;
+        background: rgb(156, 219, 9);
+        display:flex;
+    }
+    .bottom{
+        height: 1.4667rem;
+        background: rgb(199, 70, 19);
+        font-size:0.4rem;
+        display:flex;
+    }
+    .scroll {
+        position:fixed; 
+        right: 5%;
+        bottom: 4.5rem;
+        .scrollItem {
+            height: 1.3333rem;
+            width: 1.3333rem;
+            display: none;
+            opacity: .9;
+            font-size: 0.9333rem;
+            text-align:center;
+            line-height: 1.1333rem;
+            border-radius: 50%;
+            border: 0.0133rem solid #f7f7f7;
+            background-color: #fff;
+        }
+    }
+}

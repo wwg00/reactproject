@@ -1,0 +1,76 @@
+body,html{height: 100%;}
+#home{
+    height: 100%;background:#F5F5F5!important;
+    .head{
+        width:100%;height:5.73rem;background:#D15B55;background:linear-gradient(to top right, #D15B55, #F7CCC9);
+        .font{
+            width:100%;height:1.17rem;line-height:1.6rem;margin-left:0.21rem;color:#FFB4B0;font-size:0.73rem;
+        }
+        .title{
+            width:100%;height:2.26rem;
+            .title2{
+                width:3.46rem;margin:1.46rem auto;text-align: center;
+                p{
+                    color:#fff;font-size:0.45rem;
+                }
+                span{
+                    color:#fff;font-size:0.32rem;
+                }
+            }
+        }
+        .login{
+            width:100%;height:0.9rem;color:#fff;font-size:0.4rem;display:flex;
+            span{
+                flex:1;text-align: center;
+            }
+        }
+    }
+    .tiao{
+        width:100%;height:0.42rem;background:#F5F5F5;
+    }
+    .input{
+        width:100%;height:2.4rem;
+        #username{
+            width:100%;height:1.2rem;padding-left:0.4rem;font-size:0.4rem;color:#000;border:0px;border-top:1px solid #bbb;border-bottom:1px solid #bbb;
+            
+        }
+         #password{
+            width:100%;height:1.2rem;padding-left:0.4rem;font-size:0.4rem;color:#000;border:0px;border-top:1px solid #bbb;border-bottom:1px solid #bbb;
+        }
+        input::-webkit-input-placeholder{
+            color: #ccc;opacity:1;
+        }
+    }
+    .foot{
+        width:100%;background:#F5F5F5;
+        .login2{
+            width:7.49rem;height:1.01rem;background:#E2E2E2;color:#000;line-height:1.01rem;text-align: center;margin:0.4rem auto;font-size:0.4rem;font-weight: bold;
+        }
+        img{width:4.72rem;height:5.06rem;margin:0 auto;}
+    }
+    
+    .layui-m-layersection .layerAlert{
+    height:4.8rem;display: flex;flex-direction:column;margin:0 auto;max-width: 16rem;font-size:0.33rem!important;
+    .layui-m-layer0 .layui-m-layerchild{
+        max-width: 16rem;
+    }
+    h3{
+        font-size:0.4rem;height:1.33rem;line-height:1.33rem;margin: 0rem;background: #FFFFFF !important;color:#000000 !important;border-bottom: 0.02rem solid #ccc;
+    }
+    .layui-m-layercont{
+        font-size:0.44rem;flex:1;padding-top: 0.9rem;
+    }
+    .layui-m-layerbtn{
+        height:1.28rem;line-height:1.28rem;
+        span{
+            font-size:0.4rem;
+            }
+    }
+    
+}
+
+    
+    
+    
+    
+}

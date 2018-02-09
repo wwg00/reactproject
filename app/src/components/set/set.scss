@@ -1,0 +1,47 @@
+html,body{
+    height:100%;
+}
+.set{
+    height:100%;
+     background:#F7F7F7;
+    .setnav{
+       
+        font-size:0.531rem;
+        display:flex;
+        height:1.406rem;
+        border:1px solid #ccc;
+        span{
+            color:#000;
+            padding-left:2.891rem;
+             line-height:1.406rem;
+        }
+    }
+    .setthing{
+        display:flex;
+        flex-direction:column;
+        li{
+            margin-top:0.312rem;
+            height:1.344rem;
+            background:#fff;
+            display:flex;
+            justify-content:space-between;
+            border:1px solid #ccc;
+            span{
+                line-height:1.344rem;
+                font-size:0.469rem;
+                line-height:1.344rem;
+                padding-left:0.5rem;
+
+            }  
+        }
+
+    }
+    .exit{
+        background:#fff;
+        margin-top:0.625rem;
+        text-align:center;
+        line-height:1.344rem;
+        height:1.344rem;
+        font-size:0.438rem;
+    }
+}

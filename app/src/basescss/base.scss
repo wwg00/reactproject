@@ -1,0 +1,69 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+body,h1,h2,h3,h4,p,a,input,img,ul,li,ol,dl,dt,dd{
+    padding:0;
+    margin:0;
+}
+ul,ol{
+    list-style:none;}
+img{
+    display:block;
+    border:0;}
+.fl{
+    float:left;
+}  
+.fr{
+    float:right;
+}  
+input{
+    outline:none;}
+header,footer,section,main,nav{
+    display:block;}
+body{
+  /*  font-size:12px;*/
+    font-family:"微软雅黑";
+    // color:#3e3e3e;
+    }
+a{
+    text-decoration:none;
+    color:#0dc441;
+}
+*{box-sizing:border-box;}
+
+//loading
+.loading{
+    position:fixed;    
+    top:0;    
+    left:0;    
+    width:100%;    
+    height:100%;    
+    z-index:300;    
+    background-image:url(../assets/images/2.gif);    
+    background-repeat:no-repeat;    
+    background-position:center center;    
+    background-color:#000;    
+    background-color:rgba(0,0,0,0.5);    
+    filter:alpha(opacity=50);  
+}
+
+//从上往下分别对应：Ipad Pro,Ipad,Iphone6 plus,Iphone6,Iphone5
+@media screen and (max-width: 1366px) {
+	html{ font-size: 136px; }
+}
+@media screen and (max-width: 1024px) {
+	html{ font-size: 102px; }
+}
+@media screen and (max-width: 768px) {
+	html{ font-size: 76px; }
+}
+@media screen and (max-width: 414px) {
+    html{ font-size: 41.5px; }
+}
+@media screen and (max-width: 375px) {
+    html{ font-size: 37.5px; }
+}
+@media screen and (max-width: 320px) {
+	html{ font-size: 32px; }
+}

@@ -1,0 +1,309 @@
+
+html,body{
+    height: 100%;
+}
+#container_L{
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    .fl{
+        float: left;
+    }
+    .fr{
+        float: right;
+    }
+    .slider-decorator-0{
+        bottom:0.346667rem !important;
+        .am-carousel-wrap-dot-active > span{
+            background:#fff;
+        }
+
+    }
+    .am-wingblank.am-wingblank-lg{
+        margin:0;
+        padding:0;
+        height:9.733333rem;
+    }
+    .space-carousel {
+      padding: 16px;
+      background: #DEF1E5;
+      overflow: hidden;
+    }
+    .my-carousel .v-item {
+      height: 36px;
+      line-height: 36px;
+      padding-left: 10px;
+    }
+    .sub-title {
+      color: #888;
+      font-size: 14px;
+      padding: 30px 0 18px 0;
+    }
+
+}
+#header_L{
+   background: #ccc;
+   height:1.333333rem;
+}
+
+#nav_L{
+    opacity:0.8;
+    position: absolute;
+    border-bottom: 1px solid #D5DADE;
+    height: 1.333333rem;
+    background:#58bc58;
+    width:100%;
+    padding:0.293333rem  0.2rem;
+    background:#fff;
+    z-index:100;
+    a{
+        color:#666;
+    }
+    .i2,.i3{
+        float:right;
+    }
+    .i2{
+        margin-left: 0.506667rem;
+    }
+}
+
+#main_L{
+    flex:1;
+    overflow-x:hidden;
+    .main_L_content{
+        height:2.666667rem;
+        background:#fff;
+        img{
+            width:100%;
+            max-height:10.933333rem;
+        }
+        .main_L_description{
+            padding:1.053333rem ;
+            h4{
+                font-size:0.373333rem;
+                height:0.533333rem;
+                line-height:0.533333rem;
+                font-weight:bold;
+            }
+            h3{
+                font-size:0.373333rem;
+                height:1.333333rem;
+                line-height:1.333333rem; 
+                display:flex;
+                margin-top:0.266667rem;
+                span{
+
+                        font-size:0.266667rem;
+                        flex:1;
+                    &:first-child{
+                        font-size:0.373333rem;
+                    }
+                }
+               
+            }
+        }
+
+
+    }
+    .main_L_B_content{
+        .i1{
+            font-size:0.4rem;
+            color:#c00;
+           
+        }
+        .mt{
+            margin-top: 0.266667rem;
+        }
+        background:#f5f5f5;
+
+        p{ 
+            font-size:0.373333rem;
+            display:flex;
+            background:#fff;
+            margin-bottom:0;
+            padding:0.4rem 0;
+            border-top:0.013333rem solid #ccc;
+            border-bottom:0.013333rem solid #ccc; 
+            
+        }
+        .list1{
+                i{
+                    color:#c00 ;
+                }
+                span{
+                    text-align: center;
+                    width:29%;
+                    color:#999;
+                    &:last-child{
+                         width:13%;
+                         i{
+                            color:#ccc
+                         }
+
+                    }
+                 }
+            
+        }
+        .list2,.list4{ 
+            background: #fff;
+            span{
+                text-align: center;
+                flex:1;
+                font-size:0.373333rem;
+                color:#999;
+                padding-top:0.133333rem;
+                
+                
+            } 
+            em{
+                font-style:normal;
+                color:#c00;
+                margin-left:0.466667rem;
+            }
+       
+            .L_commemnt_tab{
+                font-size:0.373333rem;
+                color:#333;
+                padding:0.2rem 0.6rem;
+        
+                .am-tabs-default-bar-tab{
+                     font-size:0.373333rem;
+                    // float:left;
+                    height:1.12rem;
+                    background: #fff;
+                }
+            }
+
+        }
+        .list3{
+            padding:0.4rem;
+            span{
+                width:50%;
+              
+                .i1{
+                    color:#ccc;
+                    font-size:0.4rem;
+                    float: right;
+                }
+            }
+            
+        }
+    }
+}
+
+
+#footer_L{
+    position:relative;
+    z-index:1;
+    display:flex;
+    font-size:0.373333rem;
+    height: 1.333333rem;
+    background:#fff;
+    border-top:0.013333rem solid #ccc;
+
+   
+    span{
+        text-align: center;
+        width:19.9999%;
+        color:#666;
+        border-right:0.013333rem solid #ccc;
+        .i1{
+            padding-top:0.133333rem;
+            display:block;
+        }
+        &:last-child{
+            float: right;
+            height:1.306667rem;
+            line-height: 1.306667rem;
+            width:39.98%;
+            background:#c00;
+            color:#fff;
+            border-right:none;
+        }
+     }
+}
+#L_comment_content{
+    div{
+        margin-top:0.266667rem;
+    }
+    a{
+        color:#666;
+        margin-right: 0.4rem;
+        display:inline-block;
+        text-align: left;
+        
+    }
+    .L_comment_content_title{
+        height:1rem;
+        }
+
+    width:100%;
+    .person{
+        i{
+            font-size:1.04rem;
+            color:#f8584f;
+        }
+        .nickname{
+            padding-top: 0.266667rem;
+
+        }
+
+    }
+    .L_commemnt_start{
+         padding-top: 0.266667rem;
+        li{
+            float:left;
+            i{ 
+                font-size:0.466667rem;
+                color:#f8584f;
+            }
+        }
+    }
+
+    
+}
+
+.L_cartBg{
+    height:100%;
+    width:100%;
+    opacity:0.5;
+    background:#000;
+    position: absolute;
+    z-index:99;
+    bottom:0;
+
+}
+.infodd {
+    background:#000;
+    color:#fff;
+    border-radius:0.66667rem;
+    font-size: 26px;
+    width:0.2rem;
+    line-height: 0.666667rem;
+    text-align: center;
+    width:2.106667rem;
+    position: absolute;
+    bottom: 2.466667rem;
+    right:39%;
+    transform-origin: bottom;
+    transform: scale(0);
+    transition: 0.5s;
+    opacity: 0;
+    font-size:0.266667rem;
+    z-index:999;
+}
+.L_cancel{
+    
+    background:#fff;
+    height: 1.346667rem;
+    line-height: 1.346667rem;
+    font-size: 0.466667rem;
+    color: #333;
+    margin-top:0.666667rem;
+    border-top:0.013333rem solid #ccc;
+    z-index:101;
+}
+.L_more{
+    padding-top:0.266667rem;
+}

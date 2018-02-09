@@ -1,0 +1,369 @@
+@import url('//at.alicdn.com/t/font_553020_jsfz0i5gqdyxecdi.css');
+$h-h: 0.93rem;
+$f-h: 0.8rem;
+
+body{
+    overflow-x: hidden;
+}
+#yp_cart{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    button{
+        border: none;
+        background: #fff;
+        &.focus{
+            color: #f83636;
+        }
+    }
+    header{
+        height:$h-h;
+        text-align: center;
+        background: #fdfdfd;
+        border-bottom: 0.01rem solid rgb(216, 216, 216);
+        line-height: $f-h;
+       
+        display: flex;
+        section{
+            font-size: 0.40rem;
+            background: #fdfdfd;
+      
+        }
+        i{
+            font-size: 0.40rem;
+            width: 1.2rem;
+            text-align: left;
+            text-indent: 0.13rem;
+            color: #000;
+
+
+        }
+        button{
+            
+            width: 1.2rem;
+            
+            font-size: 0.35rem;
+            background: #fdfdfd;
+            
+        }
+
+
+    }
+    section{
+        flex:1;
+        overflow-x: hidden;
+        background: #eeeeee;
+    }
+    footer{
+        height: 1.33rem;
+        background: #ccc;
+    }
+
+}
+
+
+#yp_cartVacant{
+    display: flex;
+   height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+
+    i{
+        color: rgb(218, 218, 218);
+            font-size: 1.8rem;
+            margin-top: -2.27rem;
+        &.focus{
+            color: #a7a7a7;
+        }
+    }
+    h3{
+    justify-content: center;
+        
+        font-size: 0.40rem;
+        letter-spacing: 0.01rem;
+    }
+    p{
+
+        
+        font-size: 0.27rem;
+        letter-spacing: 0.03rem;
+        color:rgb(180, 179, 179);
+        margin-top: .125rem;
+        
+    }
+    button{
+        background: #f83636;
+        color:#fff;
+        border:none;
+        padding: 0.04rem  0.64rem;
+        border-radius: 0.03rem;
+        margin-top: .375rem;
+        font-size: 0.32rem;
+        
+        &#yp_cartVacant_goplay{
+            
+                background: #fff;
+                color:#000;
+                font-size: 0.32rem;
+                border:0.01rem solid #000;
+               
+                    padding-left: 0.43rem;
+                
+        
+                    padding-right: 0.43rem;
+                    
+              
+        }
+        
+    }
+
+}
+// check 数据
+#cartCheckbox{
+    width: 0.50rem;
+    height: 0.50rem;
+    border-radius: 0.50rem;
+    font-size: 0.52rem;
+    &::before{
+        float:left;
+        margin-top: -0.14rem;
+        margin-left: -0.010rem;
+        color: #f83636;
+     
+    }
+    &.focus{
+    border:none;
+        
+    }
+    
+    border:0.01rem solid rgb(161, 161, 161);
+}
+
+//
+#yp_cartList{
+    position: relative;
+    background: #eeeeee;
+    header{
+        height: 0.8rem;
+        background: #fff;
+        display: flex;
+        border-bottom:0;
+        #cartCheckbox{
+            margin:0.13rem 0.13rem;
+        }
+        h3{
+            flex: 1;
+            text-align: left;
+            font-size: 0.32rem;
+        }
+        span{
+            padding: 0.13rem;
+            font-size: 0.27rem;
+            color: #ccc;
+            padding: 0{
+                right: 0.13rem;
+            }
+        }
+     
+    }
+}
+.yp_GoodsItem{
+    background: #fff;
+    display: flex;
+    font-size: 0.32rem;
+    padding-top: 0.4rem;
+    border-bottom: 0.01rem solid #ccc;
+    border-top: 0.01rem solid #ccc;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.13rem;
+    #cartCheckbox{
+            margin: 0.13rem;
+            margin-top: 0.4rem;     
+    }
+    .yp_goods{
+        flex:1;
+        padding-left: 0.33rem;
+        display: flex;
+        flex-wrap: wrap;
+        
+        .yp_goods_img{
+         
+            img{
+                width: 1.2rem;
+                height:1.7rem;
+            }
+            
+        }
+        ul{
+            width: 7.5rem;
+            li{
+                padding-left: 0.33rem;
+                &.yp_tandn{
+                    height: 0.83rem
+                    
+                }
+                &.yp_op{
+                    padding-left: 0.8rem;
+                    padding-top: 0.27rem;
+                    
+                    color:rgb(163, 163, 163);
+                }
+                &.yp_price{
+                    padding-top: 0.30rem;
+                    display: flex;
+                    span{
+                    font-size: 0.36rem;
+                     font-weight:bold;
+                    }
+                    del{
+                        padding-left: 0.8rem;
+                        color: #e0e0e0;
+                    }
+                    .yp_qty{
+                        flex:1;
+                        text-align: right;
+                        color: #ccc;
+                    }
+                }
+            }
+        }
+        .yp_bz{
+            padding:0.04rem 0rem;
+            font-size:  0.27rem;
+            color: rgb(207, 207, 207);
+            i{
+                color: #ffe032;
+                font-size: 0.53rem;
+            }
+            span{
+               position: relative;
+               top: -0.10rem;
+               padding-left: 0.1rem;
+            }
+        }
+ 
+    }
+}
+
+//商品数量组件
+#yq_qtyip{
+    border:0.01rem #cccccc solid;
+    float: left;
+    border-radius: 0.04rem;
+    font-size: 0.38rem;
+
+    input{
+        border: none;
+        width: 0.93rem;
+        text-align: center;
+        font-size: 0.27rem;
+        background: #fff;
+    }
+    .sub,.add{
+        width: 0.53rem;
+        
+
+    }
+    .sub{
+        border-right:0.01rem solid #ccc;
+    }
+    .add{
+        border-left:0.01rem  solid #ccc;
+        
+    }
+}
+
+
+#CountPanel{
+    position: fixed;
+    bottom: 1.33rem;
+    left: 0px;
+    background: #fff;
+    display: flex;
+    width: 100%;
+    height:1.23rem;
+    border-top:1px solid #ccc;
+
+    .yp_ct_l{
+        display: flex;
+        align-items: center;
+       #cartCheckbox{
+           margin: 0.13rem;
+       }
+       >span{
+           font-size: 0.29rem
+       }
+    }
+    .yp_ct_c{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        flex:1;
+        padding-left: 0.13rem;
+        p{
+            margin: 0;
+            &:nth-of-type(1){
+                font-size: 0.34rem;
+                font-weight: bold;
+            }
+            &:nth-of-type(2){
+                font-size: 0.24rem;
+                color: #888484;
+                
+            }
+        }
+    }
+    .yp_ct_edit{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2.67rem;
+        letter-spacing: 0.02rem;
+        button{
+            height: 0.57rem;
+            line-height: 0.57rem;
+            width: 1.8rem;
+            font-size: 0.32rem;
+            text-align: center;
+            background: #f83636;
+            color: #fff;
+            border-radius: 0.04rem;
+            margin: 0px 0.23rem;
+            &.yp_ct_del{
+                border: 0.01rem solid #000;
+                background: #fff;
+                color:#000;
+                margin-left:3.77rem;
+            }
+        }
+    }
+    .yp_ct_r{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0.13rem;
+        width: 1.82rem;
+        button{
+            background: #f83636;
+            color:#fff;
+            font-size: 0.28rem;
+            padding:0.06rem 0;
+            border-radius: 0.04rem;
+        }
+    }
+
+}
+
+.am-toast-notice{
+    >.am-toast-notice-content{
+        >.am-toast-text{
+            >div{
+                font-size: 0.43rem;
+            }
+        }
+    }
+}

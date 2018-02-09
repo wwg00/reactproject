@@ -1,0 +1,164 @@
+html,body{
+     height: 100%;
+} 
+
+.mine{
+     height:100%;
+     background:#F7F7F7;
+     font-size:0.469rem;
+     display: flex;
+     flex-direction:column;
+     .mine_header{
+    
+         background:url('http://img3.imgtn.bdimg.com/it/u=2056589458,1934494356&fm=214&gp=0.jpg') no-repeat;
+         background-size:cover;
+          opacity:0.8;
+          .mine_headertop{
+                display:flex;
+                justify-content:space-between;
+                height:2.344rem;
+                margin-bottom:0.188rem;
+             .left{
+                width:2.344rem;
+                height:2.344rem;
+                overflow:hidden;
+                border:1px solid #ccc;
+                border-radius:50%;
+                margin-left:0.75rem;
+                background:url('http://upload.mnw.cn/2017/0223/1487813249649.jpg');
+                background-size:cover;
+                img{
+                    width:100%;
+                }
+             }
+             .center{
+                font-size:0.25rem;
+                line-height:2.344rem;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+
+                h1{
+                    color:#55B2FF;
+                //    height:0.625rem;
+                   line-height:0.2rem;
+                   font-size:0.4rem;
+                }
+
+             }
+             .right{
+                background:#A69F9C;
+                height:1.406rem;
+                width:1.875rem;
+                opacity:0.5;
+                text-align:center;
+                border-top-left-radius:50%;
+                border-bottom-left-radius:50%;
+                margin-top:0.406rem;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+             }
+        
+        }
+          .mine_detail{
+              display:flex;
+              justify-content:space-around;
+              color:#fff;
+              padding-bottom:0.312rem;
+              margin-bottom:0;
+              li{
+                font-size:0.375rem;
+                display:flex;
+                flex-direction:column;
+                line-height:0.625rem;
+                text-align:center;
+                
+                &:last-child{
+                    height:0.656rem;
+                    margin-top:0.156rem;
+                }
+              }
+          }  
+           
+
+     }
+     .mine_order{
+        // margin-top:0.375rem;
+        background:#fff;
+        .mine_ordertop{
+            font-size:0.469rem;
+            display:flex;
+            justify-content:space-between;
+            border:1px solid #ccc;
+            line-height:1.219rem;
+            padding:0 0.5rem;
+            span{
+               color:#404040;
+            }
+            i{
+              color:#989898;
+
+            }
+        }
+
+        .mine_orderbottom{
+             border:1px solid #ccc;
+            ul{
+                margin-top:0.312rem;
+                display:flex;
+                justify-content:space-around;
+                li{
+                    display:flex;
+                    flex-direction:column;
+                    span{
+                        margin-top:0.188rem;
+                        font-size:0.4rem;
+                    }
+
+                }
+            }
+        }
+     }
+     .mine_contain{
+         margin-top:0.312rem;
+         background:#fff;
+        //  margin-bottom:1.203rem;
+         flex:1;
+         overflow:hidden;
+         ul{
+             display:flex;
+             flex-wrap:wrap;
+             justify-content:space-between;
+             border:1px solid #ccc;
+
+
+             li{
+                 height:2.5rem;
+                flex:25%;
+                display:flex;
+                flex-direction:column;
+                text-align:center;
+                justify-content:space-between;
+                border-right:1px solid #ccc;
+                border-bottom:1px solid #ccc;
+
+                span{
+                    height:1.031rem;
+                    font-size:0.4rem;
+
+                }
+
+             }
+         }
+     }
+     .bottom{
+        #foot .foot li a {
+            color: #333;
+            display: block;
+            display:flex;
+            flex-direction:column; 
+           
+        }
+     }
+  }

@@ -1,0 +1,106 @@
+#L_ShowCart{
+    .contents{
+        margin-top: 0.266667rem;
+    }
+    .fl
+    {
+        float: left;
+    }
+    .fr
+    {
+        float: right;
+    }
+
+    width:100%;
+    font-size:0.373333rem;
+    background:#fff;
+    position: absolute;
+    z-index:100;
+    bottom:0;
+    height:9.24rem;
+    padding:0.346667rem;
+    ul{
+        display:flex;
+        .clearfix:before, .container:after { content: ""; display: table; }
+        .clearfix:after { clear: both; }
+        /* IE 6/7 */
+        .clearfix { zoom: 1; }
+             
+        li{
+
+            float:left;
+            p{
+                &:first-child{
+                    color:#C00;
+                }
+            }
+
+        }
+    }
+    .addimg{
+        width:3.6rem;
+        height:1.866667rem;
+       
+
+    }
+    .tag-container{
+      display: flex;
+      padding-top: 9px;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .tag-container > div {
+      margin-left: 9px;
+      margin-bottom: 9px;
+    }
+    .size,.color{
+        text-align: center;
+        div{
+            display:flex;
+            width:100%;
+            margin:0;
+            padding:0;
+        }
+        span{
+            width:50%;
+            width:2.4rem;
+            height:0.746667rem;
+            line-height:0.746667rem;
+            padding:0.013333rem;
+           
+            color:#666;
+           
+            &:first-child{
+                border:0.013333rem solid #c00;
+                color :#c00 
+            }
+        }
+
+    }
+    .toCart{
+        margin-top: 0.533333rem;
+        height:1.24rem;
+        line-height:1.24rem;
+        font-size:0.466667rem;
+        color:#fff;
+        margin-top:0.666667rem;
+    }
+     .on{
+             border:0.013333rem solid #c00;
+        } 
+    .aa{
+             border: 0.013333rem solid #fff !important;
+             color :#666 !important;
+    }
+    .mag{
+        margin:0.4rem  !important;
+    }
+   
+}
+.am-tabs-default-bar-underline{
+    
+    border:0.013333rem solid #f8584f !important;
+}
+.am-tabs-default-bar-tab-active{
+    color:#f8584f;
+}

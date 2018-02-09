@@ -1,0 +1,15 @@
+#seek{
+    width:100%;height:1.333333rem;background:#f7f7f7;border-bottom:0.013333rem solid #ccc;
+    .input{
+        width:7.2rem;height:1.2rem;display:flex;flex-direction:column; justify-content:center;margin: 0 auto;
+        #input{
+        width:7.2rem;height:0.72rem;margin-top: 0.133333rem; border:0;background:#E5E5E5;font-size:0.34rem;padding-left:0.9rem;border:1px solid #ccc;border-radius:0.36rem;
+        }
+    }
+    .iconfont{
+        position:relative;left:1.65rem;top:-0.9rem;display:inline-block;
+    }
+    input::-webkit-input-placeholder{
+            color:#8B8B8B;opacity:1;
+        }
+}

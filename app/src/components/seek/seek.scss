@@ -1,0 +1,52 @@
+body,html{height: 100%;background:#fff;}
+#home{
+    height: 100%;background:#fff;
+    .top{
+        width:100%;height:1.12rem;background:#F7F7F7;display:flex;border-bottom:0.02rem solid #ccc;
+        .fanhui{
+           flex: 1;text-align: center;line-height:1.12rem;
+        }
+        #seek{
+            width:5.52rem;height:0.77rem;line-height:0; flex:4;border:0px;border-radius: 0.2rem;border:1px solid #ccc;padding-left:0.8rem;font-size:0.37rem;margin-top:0.16rem;background:#f7f7f7 !important;
+        }
+        input::-webkit-input-placeholder{
+            color: #ccc;opacity:1;
+        }
+        .ma{
+            flex: 1;float: right;text-align: center;line-height:1.12rem;
+        }
+        .icon-ai219{
+            position:relative;left:0.66rem;top:0.16rem;
+        }
+        
+    }
+    .center{
+        width:100%;height:2.4rem;background:#fff;margin-bottom:0.53rem;
+        span{
+            font-size:0.4rem;line-height:1.33rem;margin-left:0.53rem;color:#ccc;
+        }
+    }
+    #ccc{
+        background:#F7F7F7;width:100%;height:0.4rem;
+    }
+    .history{
+        background:#fff;width:100%;
+        .eek{
+            font-size:0.4rem;height:1.2rem;line-height:1.2rem;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding-left:0.53rem;color:#ccc;
+        }
+        ul>li{
+            font-size:0.34rem;height:1.2rem;line-height:1.2rem;border-bottom:1px solid #ccc;padding-left:0.53rem;
+        }
+        #clear{
+            width:7.2rem;height:0.98rem;border:0.01rem solid #000;font-size:0.4rem;text-align: center;line-height:0.98rem;margin:0.4rem auto;
+        }
+    }
+    #ul{
+        width:100%;height:8.4rem;background:#f7f7f7;position:relative;left:0;top:-7.5rem;
+    }
+    
+    
+    
+    
+    
+}
